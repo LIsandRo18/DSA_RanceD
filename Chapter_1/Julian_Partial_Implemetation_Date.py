@@ -1,6 +1,8 @@
 #Implements a proleptic Gregorian calendar date as a Julian day number
 
 class Date:
+    def my_new_function():
+        print("From vim")
     #Crea una instancia del objeto para una especifica fecha Gregoriana
     def __init__(self, month, day, year):
         self._julianDay = 0
